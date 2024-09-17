@@ -56,15 +56,14 @@ En el diseño de la PCB se utilizó un ancho de pista de 0.5mm y un espaciado de
 
 ### Archivos Gerber y BOM
 
-Puedes descargar los archivos Gerber y la lista de materiales (BOM) para la fabricación del Shield desde los siguientes enlaces:
+Puedes descargar los archivos Gerber para la fabricación del Shield desde el siguiente enlace:
 
-- [Archivos Gerber](ruta/a/tu/archivo_gerber.zip)
-- [Lista de Materiales (BOM)](ruta/a/tu/archivo_bom.xlsx)
+- [Archivos Gerber](PCB/Gerber_PCB_TrackLog_shield_2024-09-17.zip)
 
 ### Instrucciones de Montaje
 
 1. **Fabricación**: Utiliza los archivos Gerber para fabricar el PCB.
-2. **Componentes**: Sigue la lista de materiales (BOM) para obtener los componentes necesarios.
+2. **Componentes**: Sigue la lista de materiales para obtener los componentes necesarios.
 3. **Soldadura**: Ensambla los componentes siguiendo el esquema proporcionado.
 4. **Montaje en LILYGO-T18**: Coloca el Shield directamente encima de la placa LILYGO-T18, alineando los pines correctamente.
 
