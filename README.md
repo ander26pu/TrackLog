@@ -31,3 +31,45 @@ En esta sección se detallan los pines utilizados en el proyecto para los difere
 - **SPI:** La tarjeta SD se comunica a través del bus SPI. El pin CS (Chip Select) se define en el código, y el resto de los pines de SPI son comunes a todos los dispositivos SPI.
 - **GPS (UART):** El GPS utiliza UART para la comunicación. En este caso, se ha configurado para utilizar UART1.
 
+## PCB TrackLog Shield
+
+Este proyecto incluye el diseño de un **PCB Shield** que se conecta directamente encima de la placa de pruebas [LILYGO-T18](https://github.com/LilyGO/LILYGO-T-Energy). El Shield está diseñado para expandir las capacidades de la placa base, facilitando la conexión de sensores y otros componentes necesarios para el desarrollo del sistema embebido.
+
+### Características del PCB
+
+- **Compatibilidad**: Diseñado específicamente para la placa [LILYGO-T18](https://github.com/LilyGO/LILYGO-T-Energy).
+- **Conexiones adicionales**: El Shield incluye pines accesibles para facilitar la conexión de módulos y sensores adicionales.
+- **Tamaño compacto**: Encaja directamente sobre la placa LILYGO-T18 sin necesidad de adaptadores adicionales.
+- **Facilidad de ensamblaje**: Diseño optimizado para una rápida producción y ensamblaje.
+
+### Esquema del PCB
+
+A continuación se presenta el esquema del diseño del PCB. Este esquema detalla las conexiones entre la placa LILYGO-T18 y los componentes adicionales del Shield.
+
+![Esquema del PCB](PCB/Schematic_TrackLog_shield_2024-09-17.png)
+
+### Layout del PCB
+
+En el diseño de la PCB se utilizó un ancho de pista de 0.5mm y un espaciado de 0.25mm.
+
+![Layout del PCB](PCB/PCB_TrackLog_shield_2024-09-17.png)
+
+### Archivos Gerber y BOM
+
+Puedes descargar los archivos Gerber y la lista de materiales (BOM) para la fabricación del Shield desde los siguientes enlaces:
+
+- [Archivos Gerber](ruta/a/tu/archivo_gerber.zip)
+- [Lista de Materiales (BOM)](ruta/a/tu/archivo_bom.xlsx)
+
+### Instrucciones de Montaje
+
+1. **Fabricación**: Utiliza los archivos Gerber para fabricar el PCB.
+2. **Componentes**: Sigue la lista de materiales (BOM) para obtener los componentes necesarios.
+3. **Soldadura**: Ensambla los componentes siguiendo el esquema proporcionado.
+4. **Montaje en LILYGO-T18**: Coloca el Shield directamente encima de la placa LILYGO-T18, alineando los pines correctamente.
+
+### Vista del PCB ensamblado
+
+Aquí puedes ver cómo luce el PCB Shield una vez ensamblado y conectado a la placa LILYGO-T18:
+
+![PCB ensamblado](ruta/a/tu/imagen_ensamblada.png)
